@@ -14,8 +14,20 @@
 
 - 📱 ~3 years shipping production **React Native** apps (bare RN and Expo) for iOS and Android, plus web and backend work in **React, Next.js, Node.js/Express** and **Java/Spring Boot**.
 - 🏢 Associate Software Engineer at **NeoSOFT Technologies** (from Apr 2024): client work on an enterprise insurance platform (backend-driven config, role-based UI) and a digital-lending product built from scratch on a single codebase for web + mobile (KYC, onboarding, mandate/eSign, disbursement, repayment, PNPM monorepo migration).
-- 🚀 Building **[STAYCT](https://stayct.in)**: a two-sided rental marketplace. Bare React Native app live on the Play Store and App Store, Node backend, Next.js public site.
+- 🚀 Building **[STAYCT](https://stayct.in)** end to end: React Native app live on the Play Store and App Store, Fastify/PostgreSQL backend, Next.js website (details below).
 - 🧠 Comfortable across the stack: state (Redux Toolkit, Zustand, React Query), offline-first storage (SQLite, AsyncStorage), Supabase/MongoDB, REST APIs, JWT auth, sockets, and LLD in Java.
+
+### ⭐ Flagship: STAYCT
+
+**[stayct.in](https://stayct.in)**: a rental and PG discovery marketplace for Indian cities (students, professionals, relocating teams), with a property-management app for owners. Built end to end: mobile, web and backend.
+
+| Piece | Stack |
+|---|---|
+| **Mobile app**, live on Play Store and App Store, plus web build | Bare React Native (no Expo), TypeScript, Vite for web |
+| **Backend API** | Fastify + TypeScript modular monolith, multi-tenant, PostgreSQL + Prisma, JWT access/refresh tokens, Zod, Pino, Swagger/OpenAPI, Docker, S3-compatible storage, Redis, GitHub Actions CI |
+| **Public website** ([stayct-web](https://github.com/shivaji02/stayct-web)) | Next.js 15 App Router, TypeScript, Tailwind CSS |
+
+<sub>App and API repositories are private; happy to walk through the code in an interview.</sub>
 
 ### Tech stack
 
